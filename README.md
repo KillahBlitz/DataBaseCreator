@@ -9,7 +9,7 @@ DataBaseCreator/
 ├── Enterprise/
 │   └── EnterpriseDB.sql
 └── RealStore/
-		└── Store.sql
+    └── Store.sql
 ```
 
 ## Archivos SQL
@@ -22,16 +22,16 @@ Incluye:
 
 - Creación de la base de datos y sus archivos de datos y registro.
 - Tablas principales:
-	- `clientes`: almacena información de clientes.
-	- `productos`: registra catálogo, precios y existencia.
-	- `ventas`: guarda la nota de venta y la relación con el cliente.
-	- `detalles`: contiene el detalle de productos vendidos por nota.
+    - `clientes`: almacena información de clientes.
+    - `productos`: registra catálogo, precios y existencia.
+    - `ventas`: guarda la nota de venta y la relación con el cliente.
+    - `detalles`: contiene el detalle de productos vendidos por nota.
 - Relaciones entre tablas mediante llaves foráneas.
 - Inserción de datos de ejemplo para clientes, productos, ventas y detalles.
 - Consultas de práctica para obtener:
-	- Nombre completo del cliente con sus compras.
-	- Totales de compra por cliente.
-	- Filtros por fecha y por apellido.
+    - Nombre completo del cliente con sus compras.
+    - Totales de compra por cliente.
+    - Filtros por fecha y por apellido.
 
 Uso recomendado:
 
@@ -48,28 +48,28 @@ Incluye:
 
 - Creación de la base de datos Enterprise.
 - Tablas de catálogo:
-	- `cat_Areas`: áreas o divisiones de la empresa.
-	- `cat_TipoSangre`: catálogo de tipos de sangre.
-	- `cat_Deptos`: departamentos ligados a un área.
-	- `cat_Puestos`: puestos vinculados a un departamento y con sueldo asignado.
+    - `cat_Areas`: áreas o divisiones de la empresa.
+    - `cat_TipoSangre`: catálogo de tipos de sangre.
+    - `cat_Deptos`: departamentos ligados a un área.
+    - `cat_Puestos`: puestos vinculados a un departamento y con sueldo asignado.
 - Tabla principal:
-	- `Empleado`: contiene los datos personales, tipo de sangre, puesto y fecha de nacimiento de cada empleado.
+    - `Empleado`: contiene los datos personales, tipo de sangre, puesto y fecha de nacimiento de cada empleado.
 - Relaciones entre catálogos y empleados mediante llaves foráneas.
 - Inserción de datos de ejemplo en catálogos y empleados.
 - Consultas de validación para:
-	- Ver contenido de cada tabla.
-	- Obtener empleados por área.
-	- Filtrar empleados por tipo de sangre y área.
-	- Identificar el puesto mejor pagado.
-	- Listar áreas, departamentos y puestos ordenados.
+    - Ver contenido de cada tabla.
+    - Obtener empleados por área.
+    - Filtrar empleados por tipo de sangre y área.
+    - Identificar el puesto mejor pagado.
+    - Listar áreas, departamentos y puestos ordenados.
 
 ## Cómo ejecutar los scripts en SQL Server
 
 1. Abre SQL Server Management Studio o tu cliente SQL preferido.
 2. Conéctate a una instancia de SQL Server.
 3. Ejecuta el script que quieras probar:
-	 - `RealStore/Store.sql`
-	 - `Enterprise/EnterpriseDB.sql`
+   - `RealStore/Store.sql`
+   - `Enterprise/EnterpriseDB.sql`
 4. Revisa que la base de datos, tablas y datos de ejemplo se creen correctamente.
 
 ## Notas importantes
